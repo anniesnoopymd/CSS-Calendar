@@ -1,0 +1,172 @@
+@charset "UTF-8";
+* {
+  font-family: "Montserrat", sans-serif, 微軟正黑體;
+}
+
+.box {
+  height: 20px;
+  width: 20px;
+  padding-left: 20px;
+  margin-top: 25px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.box1 {
+  background-color: #3C3C3C;
+  margin-left: 100px;
+}
+
+.box2 {
+  background-color: #6C6C6C;
+}
+
+.box3 {
+  background-color: #8185D7;
+}
+
+.calendar {
+  background-color: #3C3C3C;
+  color: #F5F5F5;
+  width: 420px;
+  height: 600px;
+  margin-left: 20%;
+  padding: 5px;
+  margin-bottom: 40px;
+}
+.calendar .head {
+  background-color: #8185D7;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.calendar .day {
+  text-align: center;
+  font-size: 10px;
+  width: calc(100% / 7 - 5px);
+  display: inline-block;
+  padding: 2px;
+}
+.calendar .day h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.calendar .date {
+  text-align: center;
+  font-size: 10px;
+  height: 50px;
+  width: calc(100% / 7 - 5px);
+  display: inline-block;
+  padding: 7px;
+  margin-top: 8px;
+}
+.calendar .date:hover {
+  text-align: center;
+  font-size: 10px;
+  height: 50px;
+  width: calc(100% / 7 - 5px);
+  display: inline-block;
+  padding: 7px;
+  margin-top: 8px;
+  background-color: #8185D7;
+  cursor: pointer;
+}
+.calendar .date16 {
+  border-bottom: 4px solid #8185D7;
+}
+.calendar .date2, .calendar .date3, .calendar .date5, .calendar .date6, .calendar .date10, .calendar .date12, .calendar .date14, .calendar .date16, .calendar .date17, .calendar .date18, .calendar .date21, .calendar .date23, .calendar .date26, .calendar .date27, .calendar .date29, .calendar .date30 {
+  background-color: #6C6C6C;
+}
+
+.left {
+  width: 180px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color: #6C6C6C;
+  border-left: 3px solid #FF359A;
+  opacity: 0.8;
+}
+.left .glyphicon {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 70px;
+  display: inline-block;
+}
+.left h5 {
+  padding-top: -10px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.left h4 {
+  font-family: "Nunito";
+  padding-left: 20px;
+}
+.left h6 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 10px;
+  display: inline-block;
+}
+.left .photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.left .photo img {
+  width: 30px;
+  height: 30px;
+}
+.left .photo .photo1 {
+  margin-left: 20px;
+}
+
+.right {
+  width: 180px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 210px;
+  background-color: #6C6C6C;
+  border-left: 3px solid #FF9224;
+  opacity: 0.8;
+}
+.right .glyphicon {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 70px;
+  display: inline-block;
+}
+.right h5 {
+  padding-top: -10px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.right h4 {
+  font-family: "Nunito";
+  padding-left: 20px;
+}
+.right h6 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 10px;
+  display: inline-block;
+}
+.right .photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.right .photo img {
+  width: 30px;
+  height: 30px;
+}
+.right .photo .photo1 {
+  margin-left: 20px;
+}
